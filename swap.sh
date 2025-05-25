@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SWAPFILE="/swapfile"
-SWAPSIZE="17G"
+SWAPSIZE="1G"
 FSTAB="/etc/fstab"
 BACKUP="/etc/fstab.back"
 
