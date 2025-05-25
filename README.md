@@ -12,5 +12,13 @@
 ### 1. 运行脚本
 
 ```
-wget https://raw.githubusercontent.com/你的用户名/你的仓库名/main/create_swap.sh
+wget https://raw.githubusercontent.com/coco-coc/swap-script/refs/heads/main/swap.sh
+```
+### 2. 给脚本加执行权限
+```
 chmod +x create_swap.sh
+```
+### 3. 运行脚本
+```
+./create_swap.sh
+```
