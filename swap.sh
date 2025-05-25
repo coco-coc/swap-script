@@ -1,9 +1,12 @@
 #!/bin/bash
 
 SWAPFILE="/swapfile"
-SWAPSIZE="1G"
 FSTAB="/etc/fstab"
 BACKUP="/etc/fstab.back"
+
+# 交互式输入 Swap 大小，默认17G
+read -p "请输入 Swap 大小（例如 512MB、1G、8G、17G，默认 17G）: " USER_SWAPSIZE
+SWAPSIZE=${USER_SWAPSIZE:-17G}
 
 echo "1. 创建 $SWAPSIZE 的交换文件..."
 sudo fallocate -l $SWAPSIZE $SWAPFILE || { echo "fallocate 失败"; exit 1; }
