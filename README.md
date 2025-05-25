@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/coco-coc/swap-script/refs/heads/main/swap
 ```
 ### 2. 给脚本加执行权限
 ```
-chmod +x create_swap.sh
+chmod +x swap.sh
 ```
 ### 3. 运行脚本
 ```
