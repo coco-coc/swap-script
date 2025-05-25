@@ -4,8 +4,7 @@
 
 ## 特性 Features
 
-- 自动创建指定大小的 swap 文件（默认 1G）
-- 自动设置权限和启用 swap
+- 自定义指定大小 swap 文件（默认 1G）
 - 自动将 swap 写入 `/etc/fstab` 实现开机自动挂载
 - 自动备份 `/etc/fstab` 防止误操作
 
