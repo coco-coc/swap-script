@@ -19,5 +19,5 @@ chmod +x swap.sh
 ```
 ### 3. 运行脚本
 ```
-./create_swap.sh
+./swap.sh
 ```
