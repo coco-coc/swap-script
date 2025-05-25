@@ -26,7 +26,7 @@ chmod +x swap.sh
 
 ### 1. 下载卸载脚本
 ```
-
+wget https://raw.githubusercontent.com/coco-coc/swap-script/refs/heads/main/remove_swap.sh
 ```
 ### 2. 给脚本权限
 ```
